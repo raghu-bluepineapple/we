@@ -16,5 +16,7 @@ export default ({ article }) => (
         __html: article.description.childMarkdownRemark.html,
       }}
     />
+	<p dangerouslySetInnerHTML={{ __html: "BLUEPINEAPPLE" }}/>
+	 
   </div>
 )
